@@ -19,3 +19,9 @@
 ## 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 
 ## 10. a + b
+
+## 11. a ^ b
+
+## 12. Fizz Buzz
+
+## 13. Insert in sorted linked list
