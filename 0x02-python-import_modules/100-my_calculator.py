@@ -3,7 +3,7 @@ if __name__ == "__main__":
     from calculator_1 import div, mul, sub, add
     import sys
     operators = ['+', '-', '*', '/']
-    error_message1 = "usage: {} <a> <operator> <b>".format(sys.argv[0])
+    error_message1 = "Usage: {} <a> <operator> <b>".format(sys.argv[0])
     error_message2 = "Unknown operator. Available operators: +, -, * and /"
     if len(sys.argv) != 4:
         print(error_message1)
