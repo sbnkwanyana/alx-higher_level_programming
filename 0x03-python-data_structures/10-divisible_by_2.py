@@ -12,4 +12,3 @@ def divisible_by_2(my_list=[]):
                 new_list.append(False)
             index += 1
         return new_list
-
