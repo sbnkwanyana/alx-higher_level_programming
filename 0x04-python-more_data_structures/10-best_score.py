@@ -9,7 +9,3 @@ def best_score(a_dictionary):
             best = a_dictionary[key]
             best_key = key
     return best_key
-
-my_dict = {}
-best_key = best_score(my_dict)
-print("Best score: {}".format(best_key))
