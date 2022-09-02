@@ -7,3 +7,5 @@
 ### 1. Search and replace
 
 ### 2. Unique Addition
+
+### 3. Present in both
