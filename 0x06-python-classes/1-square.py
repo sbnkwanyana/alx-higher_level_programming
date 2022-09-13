@@ -4,4 +4,4 @@ class Square:
     """Class represents a square"""
     def __init__(self, size):
         """ initializes private instance attribute with provided size """
-        self._size = size
+        self.__size = size
