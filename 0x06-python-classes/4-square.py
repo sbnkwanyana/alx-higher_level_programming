@@ -31,7 +31,7 @@ class Square:
     def size(self):
         """
         Getter property for size
-	   """
+       """
         return self.__size
 
     @size.setter
@@ -39,9 +39,9 @@ class Square:
         """
         Setter property for size.
 
-	   Args:
-	       value - sets size equal to value
-	   """
+       Args:
+           value - sets size equal to value
+       """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         if value < 0:
