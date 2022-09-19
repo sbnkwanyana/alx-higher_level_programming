@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 This module contains the class definition for a rectangle
-with a height and a width property and number of instances 
+with a height and a width property and number of instances
 and print_symbol class attribute
 """
 
