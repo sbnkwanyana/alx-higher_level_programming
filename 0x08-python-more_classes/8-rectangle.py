@@ -1,13 +1,9 @@
 #!/usr/bin/python3
 """
 This module contains the class definition for a rectangle
-with a height and a width property and number of instances class attribute
+with a height and a width property and number of instances 
+and print_symbol class attribute
 """
-
-
-from curses.textpad import rectangle
-from typing import Type
-from wsgiref.util import request_uri
 
 
 class Rectangle:
@@ -124,7 +120,7 @@ class Rectangle:
         if not isinstance(rect_1, Rectangle):
             raise TypeError("rect_1 must be an instance of Rectangle")
         if not isinstance(rect_2, Rectangle):
-            raise Type("rect_2 must be an instance of Rectangle")
+            raise TypeError("rect_2 must be an instance of Rectangle")
         if rect_2.area() > rect_1.area():
             return rect_2
         return rect_1
