@@ -72,7 +72,8 @@ class Rectangle:
 
     def __str__(self):
         """
-        returns the string representation of the rectangle in # accorinding to its width and height
+        returns the string representation of the rectangle
+        in # accorinding to its width and height
         """
         rect_str = ""
         i = 0
