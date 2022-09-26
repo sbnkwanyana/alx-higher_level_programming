@@ -28,9 +28,3 @@ class Square(BaseGeometry):
        area function calculate the area of a square
         """
         return self.__size * self.__size
-
-    def __str__(self):
-        """
-       returns a tring representing the square
-       """
-        return "[Square] {}/{}".format(self.__size, self.__size)
