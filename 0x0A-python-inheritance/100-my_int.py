@@ -1,14 +1,14 @@
-#1/usr/bin/python3
-
+#!/usr/bin/python3
 """
-Module contains a MyInt class that inverts the == and != operators
+Module contains a MyInt class that inverts
+the == and != operators
 """
 
 
 class MyInt(int):
     """
-    MyInt class overrides the magic functions eq and ne (equals to, not equals to)
-    and inverts there functionality
+    MyInt class overrides the magic functions eq and ne
+    (equals to, not equals to) and inverts there functionality
     """
 
     def __eq__(self, other):
