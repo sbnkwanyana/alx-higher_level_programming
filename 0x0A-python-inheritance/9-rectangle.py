@@ -7,6 +7,7 @@ and contains a rectangle class the inherits from baseGeometry
 
 BaseGeometry = __import__("7-base_geometry").BaseGeometry
 
+
 class Rectangle(BaseGeometry):
     """
     rectangle class contains an initialization function that validates
