@@ -10,4 +10,4 @@ def write_file(filename="", text=""):
     of an older file
     """
     with open(filename, encoding="UTF-8", mode="w") as file:
-        file.write(text)
+        return file.write(text)
