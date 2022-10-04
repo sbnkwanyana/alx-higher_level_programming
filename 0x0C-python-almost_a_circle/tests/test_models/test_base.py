@@ -7,11 +7,10 @@ import unittest
 from models.base import Base
 
 
-class TestBaseClass(unittest.TestCase):
+class TestBase(unittest.TestCase):
 	"""
 	"""
-	def test_(self):
-		Base.__nb_objects = 0
+	def test_BaseClass(self):
 		b1 = Base()
 		b2 = Base()
 		b3 = Base()
