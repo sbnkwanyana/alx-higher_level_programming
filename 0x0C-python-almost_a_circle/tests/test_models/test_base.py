@@ -10,7 +10,7 @@ from models.base import Base
 class TestBaseClass(unittest.TestCase):
 	"""
 	"""
-	def test_id(self):
+	def test_(self):
 		Base.__nb_objects = 0
 		b1 = Base()
 		b2 = Base()
