@@ -14,7 +14,7 @@
 
 ## 0x06. Python - Classes and Objects
 
-## 0x07. Python - Test-driven development
+## 0x07. Python - Test-driven development    |  Not uploaded (Incompleted)
 
 ## 0x08. Python - More Classes and Objects
 
