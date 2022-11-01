@@ -29,3 +29,9 @@
 ### 12. Cheating is bad
 
 ### 13. Score too low
+
+### 14. Average
+
+### 15. Number by score
+
+### 16. Say my name
