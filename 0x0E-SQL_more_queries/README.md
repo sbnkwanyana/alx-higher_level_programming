@@ -17,3 +17,21 @@
 ### 6. States table
 
 ### 7. Cities table
+
+### 8. Cities of California
+
+### 9. Cities by States
+
+### 10. Genre ID by show
+
+### 11. Genre ID for all shows
+
+### 12. No genre
+
+### 13. Number of shows by genre
+
+### 14. My genres
+
+## 15. Only Comedy
+
+### 16. List shows and genres
