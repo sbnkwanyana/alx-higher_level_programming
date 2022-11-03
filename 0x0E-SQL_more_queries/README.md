@@ -35,3 +35,11 @@
 ## 15. Only Comedy
 
 ### 16. List shows and genres
+
+### 17. Not my genre
+
+### 18. No Comedy tonight
+
+### 19. Rotten tomatoes
+
+### 20. Best genre
