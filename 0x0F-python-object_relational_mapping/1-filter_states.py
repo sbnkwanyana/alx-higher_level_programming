@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Module connects to database using MySQLdb client using values passed
+through command line arguments to select states that match their start
+with given value"""
 
 import sys
 import MySQLdb

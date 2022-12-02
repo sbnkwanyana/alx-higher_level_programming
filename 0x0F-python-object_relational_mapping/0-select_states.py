@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Module connects to database using MySQLdb client using values passed
-through command line arguments"""
+through command line arguments to display all states"""
 import sys
 import MySQLdb
 

@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""Module connects to database using MySQLdb client using values passed
+through command line arguments by using parameters to protect from a
+sql injection attack"""
 import sys
 import MySQLdb
 
