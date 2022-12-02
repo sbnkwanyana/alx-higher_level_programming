@@ -5,13 +5,14 @@ import MySQLdb
 
 if __name__ == "__main__":
     host = 'localhost'
-    port = 3306
     user = sys.argv[1]
     passwd = sys.argv[2]
     database = sys.argv[3]
+    state = sys.argv[4]
     db = MySQLdb.connect(host=host, user=user, passwd=passwd, db=database)
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM states ORDER BY id ASC")
+    cursor.execute("SELECT * FROM states WHERE name=%s ORDER BY id ASC",
+                   (state,))
     data = cursor.fetchall()
     for row in data:
         print(row)
