@@ -4,9 +4,11 @@ Module contains the SQLAlchemy ORM State model mapping
 """
 
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, MetaData
 
-Base = declarative_base()
+metadata = MetaData()
+
+Base = declarative_base(metadata=metadata)
 
 
 class State(Base):
