@@ -15,7 +15,7 @@ class State(Base):
     """
     State class contains the table mapping for states in database
     """
-    __table__ = "states"
+    __tablename__ = "states"
 
     id = Column("id", Integer, primaryKey=True, autoincrement=True,
                 unique=True, nullable=False)
