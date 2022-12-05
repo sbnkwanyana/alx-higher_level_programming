@@ -13,13 +13,12 @@ if __name__ == "__main__":
     state = sys.argv[4]
     db = MySQLdb.connect(host=host, user=user, passwd=passwd, db=database)
     cursor = db.cursor()
-    cursor.execute("SELECT cities.id, cities.name, states.name "
+    cursor.execute("SELECT cities.name "
                    "FROM cities LEFT JOIN states "
                    "ON cities.state_id = states.id "
                    "WHERE states.name = %s ORDER BY "
                    "cities.id ASC", (state,))
     data = cursor.fetchall()
-    for row in data:
-        print(row)
+    print(", ".join([row[0] for row in data]))
     cursor.close()
     db.close()
