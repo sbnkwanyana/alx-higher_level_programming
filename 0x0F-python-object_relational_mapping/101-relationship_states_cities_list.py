@@ -19,5 +19,5 @@ if __name__ == '__main__':
     for state in session.query(State).order_by(State.id).all():
         print(f"{state.id}: {state.name}")
         for city in state.cities:
-            print(f"     {city.id}: {city.name}")
+            print(f"\t{city.id}: {city.name}")
     session.close()
