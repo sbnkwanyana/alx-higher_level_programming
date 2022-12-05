@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Script  prints the State object with the name passed
-as argument from the database hbtn_0e_6_usa
+Adds a new state and prints out the its ID
 """
 
 import sys
