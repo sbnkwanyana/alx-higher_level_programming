@@ -21,3 +21,5 @@
 ### 8. First state
 
 ### 9. Contains `a`
+
+###  10. Get a state
