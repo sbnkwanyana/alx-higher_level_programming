@@ -35,3 +35,5 @@
 ### 15. City relationship
 
 ### 16. List relationship
+
+### 17. From city
