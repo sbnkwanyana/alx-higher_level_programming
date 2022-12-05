@@ -5,6 +5,7 @@ creates the state of california with its city san francisco
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.schema import Table
 from relationship_state import State, Base
 from relationship_city import City
 
@@ -21,6 +22,7 @@ if __name__ == '__main__':
     state = State(name='California')
     city = City(name='San Francisco')
     state.cities.append(city)
-    session.add_all([state, city])
+    session.add(state)
+    session.add(city)
     session.commit()
     session.close()
