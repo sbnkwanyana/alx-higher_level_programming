@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """
+Returns all cities with their states and id
 """
 
 
