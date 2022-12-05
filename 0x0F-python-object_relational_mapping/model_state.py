@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Module contains the SQLAlchemy ORM State model mapping
+Module contains the SQLAlchemy ORM model mapping
+with Base and State model
 """
 
 from sqlalchemy.ext.declarative import declarative_base
@@ -18,3 +19,6 @@ class State(Base):
     id = Column(Integer, primaryKey=True, autoincrement=True,
                 unique=True, nullable=False)
     name = Column(String(128), nullable=False)
+
+    def __init__(self, name):
+        self.name = name
