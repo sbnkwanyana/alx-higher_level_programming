@@ -11,7 +11,8 @@ if __name__ == "__main__":
     database = sys.argv[3]
     db = MySQLdb.connect(host=host, user=user, passwd=passwd, db=database)
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM states WHERE name='{}' ORDER BY id ASC".format(sys.argv[4]))
+    cursor.execute("SELECT * FROM states WHERE name='{}' ORDER BY id ASC"
+                   .format(sys.argv[4]))
     data = cursor.fetchall()
     for row in data:
         print(row)
