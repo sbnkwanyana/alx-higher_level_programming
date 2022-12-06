@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-lists all State objects, and corresponding City objects
+lists all State objects, and corresponding City objects in the format
+<state id>: <state name>
+<tabulation><city id>: <city name>
 """
 import sys
 from sqlalchemy import create_engine
