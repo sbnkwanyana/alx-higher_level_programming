@@ -8,7 +8,7 @@ import requests
 
 if __name__ == '__main__':
     url = "http://0.0.0.0:5000/search_user"
-    if sys.argv >= 2:
+    if len(sys.argv) >= 2:
         value = {"q": sys.argv[1]}
     else:
         value = {"q": ""}
