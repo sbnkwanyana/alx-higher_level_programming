@@ -8,9 +8,9 @@ import sys
 from urllib import request
 from urllib.error import HTTPError
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     try:
         with request.urlopen(sys.argv[1]) as response:
-            print(response.read().decode('UTF-8'))
+            print(response.read().decode("UTF-8"))
     except HTTPError as ex:
-        print('Error code:', ex.code)
+        print("Error code:", ex.code)
